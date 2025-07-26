@@ -15,6 +15,6 @@ RUN mkdir input output
 
 # Disable network
 RUN pip config set global.trusted-host ""
-
+ENV PYTHONPATH=/app
 ENTRYPOINT ["python", "-u", "cli.py"]
 CMD ["--help"]
