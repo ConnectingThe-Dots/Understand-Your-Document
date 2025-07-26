@@ -10,3 +10,11 @@ heading_rules:
 ignore_patterns:
   - "^Page \\d+"
   - "^Figure \\d+"
+
+
+
+# Round 1B persona settings
+persona:
+  embed_model: "all-MiniLM-L6-v2"
+  max_section_chars: 1000
+  relevance_threshold: 0.1
