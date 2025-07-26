@@ -4,7 +4,7 @@ import numpy as np
 import re
 from typing import List, Dict
 
-from src.utils import setup_logger
+from utils import setup_logger
 import logging
 
 logger = logging.getLogger(__name__)

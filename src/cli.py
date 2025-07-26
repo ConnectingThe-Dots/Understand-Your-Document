@@ -1,9 +1,9 @@
 import os
 import click
-from src.utils import setup_logger
-from src.parser import parse_pdf
-from src.analyzer import load_config, assign_levels
-from src.serializer import serialize_outline, dump_json
+from utils import setup_logger
+from parser import parse_pdf
+from analyzer import load_config, assign_levels
+from serializer import serialize_outline, dump_json
 import pdfplumber
 
 @click.command()
