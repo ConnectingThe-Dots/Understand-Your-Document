@@ -1,0 +1,17 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="connecting_the_dots",
+    version="0.1",
+    packages=find_packages(),
+    install_requires=[
+        "pdfplumber>=0.6.0",
+        "scikit-learn>=1.2.0",
+        "pyyaml>=6.0",
+        "jsonschema>=4.0.0",
+        "click>=8.0.0",
+        "pytest>=7.0.0",
+        "sentence-transformers>=2.2.2",
+        "lark",
+    ],
+)

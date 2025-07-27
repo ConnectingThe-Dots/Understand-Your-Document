@@ -1,0 +1,7 @@
+README.md
+setup.py
+connecting_the_dots.egg-info/PKG-INFO
+connecting_the_dots.egg-info/SOURCES.txt
+connecting_the_dots.egg-info/dependency_links.txt
+connecting_the_dots.egg-info/requires.txt
+connecting_the_dots.egg-info/top_level.txt

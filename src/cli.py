@@ -1,45 +1,36 @@
 import os
 import click
-from utils import setup_logger
-from parser import parse_pdf
-from analyzer import load_config, assign_levels
-from serializer import serialize_outline, dump_json
 import pdfplumber
+from src.utils import setup_logger
+from src.parser import parse_pdf
+from src.analyzer import load_config, assign_levels
+from src.serializer import serialize_outline, dump_json
 
 @click.command()
-@click.option(
-    "--config", "config_path", default="config/default.yaml",
-    help="Path to YAML config file."
-)
-@click.option(
-    "--input-dir", default="input",
-    help="Directory with PDF files."
-)
-@click.option(
-    "--output-dir", default="output",
-    help="Directory for JSON output."
-)
-@click.option(
-    "--log-level", default="INFO",
-    help="Logging level: DEBUG, INFO, WARNING, ERROR."
-)
-def main(config_path, input_dir, output_dir, log_level):
+@click.option("--config",    "cfg_path",      default="config/default.yaml")
+@click.option("--input-dir", default="input")
+@click.option("--output-dir",default="output")
+@click.option("--persona-desc", default="", help="Persona description")
+@click.option("--job",         "job_to_be_done", default="", help="Job to be done")
+@click.option("--log-level",   default="INFO")
+def main(cfg_path, input_dir, output_dir, persona_desc, job_to_be_done, log_level):
     setup_logger(log_level)
-    cfg = load_config(config_path)
+    cfg = load_config(cfg_path)
+    cfg["persona"]["description"]    = persona_desc
+    cfg["persona"]["job_to_be_done"] = job_to_be_done
     os.makedirs(output_dir, exist_ok=True)
 
-    for fname in os.listdir(input_dir):
-        if not fname.lower().endswith(".pdf"):
-            continue
-        pdf_path = os.path.join(input_dir, fname)
-        items = parse_pdf(pdf_path)
-        with pdfplumber.open(pdf_path) as pdf:
-            page_count = len(pdf.pages)
+    for fn in os.listdir(input_dir):
+        if not fn.lower().endswith(".pdf"): continue
+        path = os.path.join(input_dir, fn)
+        items = parse_pdf(path)
+        pages = len(pdfplumber.open(path).pages)
         headings = assign_levels(items, cfg)
-        data = serialize_outline(headings, fname, config_path, page_count)
-        out_fname = os.path.splitext(fname)[0] + ".json"
-        dump_json(data, os.path.join(output_dir, out_fname))
-        click.echo(f"Processed {fname} → {out_fname}")
+        
+        # Create schema-compliant output
+        out = serialize_outline(headings, fn, cfg_path, pages)
+        dump_json(out, os.path.join(output_dir, fn.replace(".pdf", ".json")))
+        click.echo(f"{fn} → {fn.replace('.pdf','.json')}")
 
-if __name__ == "__main__":
+if __name__=="__main__":
     main()

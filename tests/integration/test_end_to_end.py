@@ -2,6 +2,7 @@ import os
 import json
 from click.testing import CliRunner
 from src.cli import main
+from tests.utils import create_test_pdf
 
 
 def test_end_to_end(tmp_path, monkeypatch):
@@ -11,7 +12,7 @@ def test_end_to_end(tmp_path, monkeypatch):
     input_dir.mkdir()
     output_dir.mkdir()
     sample_pdf = input_dir / "doc.pdf"
-    # ... copy or generate a small PDF into sample_pdf ...
+    create_test_pdf(str(sample_pdf))
 
     runner = CliRunner()
     result = runner.invoke(

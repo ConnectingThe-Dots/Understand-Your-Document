@@ -6,15 +6,18 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Copy pre-downloaded model
+COPY models/models--sentence-transformers--all-MiniLM-L6-v2 /root/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2
+
 # Copy project files
-COPY config/ ./config
-COPY src/* ./
+COPY . .
 
 # Create directories
-RUN mkdir input output
+RUN mkdir -p input output
 
 # Disable network
 RUN pip config set global.trusted-host ""
 ENV PYTHONPATH=/app
-ENTRYPOINT ["python", "-u", "cli.py"]
+ENV TRANSFORMERS_OFFLINE=1
+ENTRYPOINT ["python", "-u", "src/cli.py"]
 CMD ["--help"]
