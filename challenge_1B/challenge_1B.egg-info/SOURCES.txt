@@ -1,0 +1,7 @@
+README.md
+setup.py
+challenge_1B.egg-info/PKG-INFO
+challenge_1B.egg-info/SOURCES.txt
+challenge_1B.egg-info/dependency_links.txt
+challenge_1B.egg-info/requires.txt
+challenge_1B.egg-info/top_level.txt

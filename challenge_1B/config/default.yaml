@@ -1,0 +1,17 @@
+clustering:
+  algo: kmeans
+  n_clusters: 5
+  random_state: 42
+
+heading_rules:
+  top_n_clusters: 3
+  min_font_diff: 1.2
+
+ignore_patterns:
+  - "^Page \\d+"
+  - "^Figure \\d+"
+
+persona:
+  embed_model: "all-MiniLM-L6-v2"
+  max_section_chars: 1000
+  relevance_threshold: 0.1
