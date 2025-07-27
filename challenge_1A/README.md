@@ -13,43 +13,59 @@ This project processes PDF documents and extracts their structure using advanced
 ```
 challenge_1A/
 │
-├── input/               # Place your PDF files here
-├── output/             # Generated JSON files will be stored here
-├── config/             # Configuration files
-├── models/             # Pre-downloaded models
-├── src/               # Source code
-└── requirements.txt   # Python dependencies
+├── input/                        # Place your PDF files here
+├── output/                       # Generated JSON files will be stored here
+├── config/                       # Configuration files
+├── models/                       # Pre-downloaded models (sentence-transformers)
+├── src/                         # Source code
+├── scripts/                     # Utility scripts (bench.py, download_model.py)
+├── tests/                       # Test files (unit and integration tests)
+├── connecting_the_dots.egg-info/ # Package installation info
+├── Dockerfile                   # Docker configuration
+├── pyproject.toml              # Project configuration
+├── setup.py                    # Package setup file
+└── requirements.txt            # Python dependencies
 ```
 
 ## Installation & Running
 
 ### Option 1: Running Locally
 
-1. Create and activate a virtual environment (recommended):
+1. Navigate to the challenge_1A directory:
+```bash
+cd challenge_1A
+```
+
+2. Create and activate a virtual environment (recommended):
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows, use: .venv\Scripts\activate
 ```
 
-2. Install dependencies:
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 pip install -e .
 ```
 
-3. Run the application:
+4. Run the application:
 ```bash
 python -m src.cli --config config/default.yaml
 ```
 
 ### Option 2: Running with Docker
 
-1. Build the Docker image:
+1. Navigate to the challenge_1A directory:
+```bash
+cd challenge_1A
+```
+
+2. Build the Docker image:
 ```bash
 docker build -t connecting-dots .
 ```
 
-2. Run the container:
+3. Run the container:
 ```bash
 docker run -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output connecting-dots --config config/default.yaml
 ```
@@ -78,6 +94,9 @@ Options:
 To process PDFs with a specific configuration:
 
 ```bash
+# Navigate to challenge_1A directory first
+cd challenge_1A
+
 # Local execution
 python -m src.cli --config config/default.yaml --input-dir input --output-dir output
 
