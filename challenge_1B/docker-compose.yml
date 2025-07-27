@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  challenge-1b:
+    build: .
+    container_name: challenge_1b_processor
+    volumes:
+      # Mount input and output directories
+      - ./input:/app/challenge_1B/input
+      - ./output:/app/challenge_1B/output
+      # Mount Challenge_1b collections if they exist
+      - ./Challenge_1b:/app/challenge_1B/Challenge_1b
+      # Mount config for customization
+      - ./config:/app/challenge_1B/config
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Override default command if needed
+    # command: ["--config", "config/default.yaml", "--input-dir", "input", "--output-dir", "output"]

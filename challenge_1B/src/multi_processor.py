@@ -4,8 +4,8 @@ import os
 import json
 import glob
 import click
-from src.parser import parse_pdf
-from src.analyzer import load_config, assign_levels, chunk_sections, score_sections
+from challenge_1B.src.parser import parse_pdf
+from challenge_1B.src.analyzer import load_config, assign_levels, chunk_sections, score_sections
 
 @click.command()
 @click.option(

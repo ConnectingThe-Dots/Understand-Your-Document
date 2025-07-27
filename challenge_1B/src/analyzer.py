@@ -3,7 +3,7 @@ import re
 import numpy as np
 from sklearn.cluster import KMeans
 from typing import List, Dict
-from src.embedding import embed_texts, compute_similarity
+from challenge_1B.src.embedding import embed_texts, compute_similarity
 
 def load_config(path="config/default.yaml") -> dict:
     return yaml.safe_load(open(path))
@@ -53,11 +53,18 @@ def chunk_sections(headings: List[Dict], max_chars: int) -> List[Dict]:
     return secs
 
 def score_sections(sections: List[Dict], persona: Dict) -> List[Dict]:
+    if not sections:  # Handle empty sections list
+        return []
+        
     texts = [s["text"] for s in sections]
     sec_emb = embed_texts(texts, persona["embed_model"])
     query = persona.get("description", "") + " " + persona.get("job_to_be_done", "")
     q_emb = embed_texts([query], persona["embed_model"])[0]
     scores = compute_similarity(q_emb, sec_emb)
+    
+    if not scores:  # Handle case when no scores are returned
+        return []
+        
     out = []
     for sec, sc in zip(sections, scores):
         if sc >= persona["relevance_threshold"]:

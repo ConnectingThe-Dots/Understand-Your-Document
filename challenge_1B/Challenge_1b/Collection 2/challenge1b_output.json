@@ -1,0 +1,2153 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance."
+  },
+  "extracted_sections": [
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "section_title": "Acrobat",
+      "importance_rank": 0.164,
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "section_title": "Before You Begin",
+      "importance_rank": 0.108,
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "section_title": "Prerequisites",
+      "importance_rank": 0.283,
+      "page_number": 17
+    },
+    {
+      "document": "Test Your Acrobat Exporting Skills.pdf",
+      "section_title": "Export Expert: Test Your Acrobat Exporting Skills",
+      "importance_rank": 0.313,
+      "page_number": 1
+    },
+    {
+      "document": "Test Your Acrobat Exporting Skills.pdf",
+      "section_title": "Acrobat.",
+      "importance_rank": 0.154,
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "section_title": "Conclusion",
+      "importance_rank": 0.175,
+      "page_number": 3
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "(Outlook)",
+      "page_number": 18
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "Portfolios",
+      "page_number": 23
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "refined_text": "Windows)",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Edit",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Content Editing",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Preferences",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Edit",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Edit",
+      "page_number": 5
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Content",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Subscript",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Superscript",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Underline",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Italic",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Bold",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Content",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Edit",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Move",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Format",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Resize",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Move",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Move",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Edit",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Format Text",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Format Text",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Format Text",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Format Text",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Content",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "For Windows",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Undo, Redo &",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Undo, Redo &",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Content",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Content",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Edit",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Image",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Edit",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Button",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Edit",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Select All",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Edit",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "4.Select .",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Ok",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "3D Media",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Insert Sound",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Sound",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "4.Select .",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "OK",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Video",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "PAGES SELECTED",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Rotate",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Page Thumbnails",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "SELECTED.",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "File Security",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Delete",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Extract",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "PAGES SELECTED",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Extraction",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Delete",
+      "page_number": 5
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Extract",
+      "page_number": 5
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "5.Select .",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Split",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Output",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "File Size",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Split By",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Output",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "File Size",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Copy",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Window",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Paste",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Cut Copy",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Page Thumbnails",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Paste",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "PAGES SELECTED",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Reduce File Size",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "7.Select .",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "OK",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Replace",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Preferences",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Command",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Ctrl",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Prefix",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Begin New Section",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "OK",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Pages",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Note:Number Pages",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Page Navigation",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Page Navigation",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Text",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Edit",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "4.Select .",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Get",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Enhance",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "refined_text": "Export",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "refined_text": "Conversion",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "refined_text": "Conversion",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "refined_text": "Conversion",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "Acrobat",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "Save",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "Save As",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "Save Selection As",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "1.Select  >  > .",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "Edit Object",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "Paste",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "E-Sign",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Note:",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Caution:",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Select .",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Add Signature",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Note:",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Done",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Done",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Note:",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Add Initials",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Hand",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Fill & Sign",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Edit Entry List",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Forms",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Preferences",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Auto-Complete",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Auto-Complete",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Note:",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "/ Acrobat Reader Preferences",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Note:",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Auto-Complete",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Auto-Complete",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Complete",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Remove",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Remove All",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Yes",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Auto-Complete Entry List",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Prepare Forms",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Fill & Sign",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Prepare Form",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Copy",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "As",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Form Fields Only",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Add Text",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Document And Markups",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Text",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Print",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Note:",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Note:",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Apply",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Sign",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Adobe Acrobat Sign",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Agreements",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Note:",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Apply",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "4.Select .",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Click To Sign",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Save:",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Mobile:",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Image:",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Draw:",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Type:",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Apply",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Click To Sign",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Save:",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Mobile:",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Image:",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Draw:",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Type:",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Attributions",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "User Guidelines",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "User-Provided Feedback",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Feedback",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "More",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Usage",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Japanese.",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Before You Begin",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Open",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Android",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Stop",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "2.Select .",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Recent",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Assistant",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Prerequisites",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Acrobat",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 18
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Submit",
+      "page_number": 20
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Report",
+      "page_number": 21
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Submit",
+      "page_number": 22
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Submit",
+      "page_number": 23
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Settings",
+      "page_number": 24
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 25
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 25
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Assistant",
+      "page_number": 26
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "2.Select .",
+      "page_number": 27
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Agree",
+      "page_number": 27
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Stop",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "2.Select .",
+      "page_number": 32
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Preferences",
+      "page_number": 32
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Preferences",
+      "page_number": 32
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Cancel",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Recents",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Recents",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Note:Refresh",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Continue",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Refresh",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Acrobat.",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Users",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Administrators",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Update Acrobat",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Prerequisites",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "All",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Completion Deadline",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Password Protect",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Add Me,",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Complete In Any Order",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "More Options",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "More Options",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "More Options",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Send",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Advanced Editing",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "E-Sign",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Tools, E-Sign",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Password",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Email",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Sign",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Set Reminder",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "7.(Optional):",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Add Agreement Details:",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Next",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Prefill",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Checkbox",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Signature",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Simple Authoring",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Signature",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Send",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Next",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Note:Advanced",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Close",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Confirmation",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Metadata",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Bulk Sends",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Documents",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Documents",
+      "page_number": 17
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Cancel:",
+      "page_number": 18
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Reminders",
+      "page_number": 18
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Open Bulk Send",
+      "page_number": 18
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "See More",
+      "page_number": 18
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Activity Activity >",
+      "page_number": 19
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Completed",
+      "page_number": 19
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Canceled -",
+      "page_number": 19
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "In Progress",
+      "page_number": 19
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "All",
+      "page_number": 19
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Add Notes",
+      "page_number": 19
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "View Activity Report",
+      "page_number": 19
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Share",
+      "page_number": 19
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Hide/Unhide Bulk Send",
+      "page_number": 19
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Download Individual Files",
+      "page_number": 19
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Download Form Field Data",
+      "page_number": 19
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Acrobat Reader",
+      "page_number": 21
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "AATL.",
+      "page_number": 21
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Adobe.",
+      "page_number": 21
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Resources",
+      "page_number": 21
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "OK",
+      "page_number": 22
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Drag New Signature Rectangle",
+      "page_number": 22
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Preview Document",
+      "page_number": 24
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Preview Document",
+      "page_number": 24
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 24
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "European Telecommunications Standards Institute",
+      "page_number": 24
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 25
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Signature",
+      "page_number": 25
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Signing Workflow",
+      "page_number": 25
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Creation & Appearance > More).",
+      "page_number": 26
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "OK",
+      "page_number": 26
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Name",
+      "page_number": 26
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Imported Graphic",
+      "page_number": 26
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "No Graphic",
+      "page_number": 26
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Create New Appearance",
+      "page_number": 26
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Lightweight Directory Access Protocol",
+      "page_number": 27
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Digital",
+      "page_number": 27
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Next",
+      "page_number": 27
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Account",
+      "page_number": 27
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Save",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Next",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Sign",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Directory Servers",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Categories Signatures",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Preferences",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Security Settings",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "OK",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "7.Select .",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Import Search Directory Settings",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Open",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Preferences",
+      "page_number": 28
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Time Stamp Servers",
+      "page_number": 29
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Preferences",
+      "page_number": 29
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 29
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Properties",
+      "page_number": 29
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Signature",
+      "page_number": 29
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Signature Properties",
+      "page_number": 29
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 29
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "OK",
+      "page_number": 30
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Set Default",
+      "page_number": 30
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Time Stamp Servers",
+      "page_number": 30
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Preferences",
+      "page_number": 30
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "OK",
+      "page_number": 30
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "New",
+      "page_number": 30
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Signatures",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Trusted Certificates",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Acrobat",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "6.Select .",
+      "page_number": 5
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "OK",
+      "page_number": 5
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Edit Trust",
+      "page_number": 5
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Note:Signatures",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Compare Signed Version To Current Version",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Signed Version",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "View",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "OK",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "2.Select .",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Add Verification Information",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Invite",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Share",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Share",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Share",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Unshare File: Share.",
+      "page_number": 5
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Add People: Share",
+      "page_number": 5
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Unshare",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Using Markup Tool",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Using Select Text Tool",
+      "page_number": 7
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Post",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Delete The Markup",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "2.Select .",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Share",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "2.Select .",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Share",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Open",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Unshare",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Unshare File: Share.",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Add People: Share",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Note:",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Open",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Send",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Next",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Next",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Next",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Tools",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Comments",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "OK",
+      "page_number": 5
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 5
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:In Acrobat Reader",
+      "page_number": 5
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "4.Select .",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "OK",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Font Size",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "K",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Ctrl + Kcommand +",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Comments",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Erase",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Draw",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Circle",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:In Acrobat Reader",
+      "page_number": 9
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Line",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 10
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Ungroup",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Group",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Text Box",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Properties",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Delete",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Select",
+      "page_number": 13
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Delete.",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "OK",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "File Attachment Properties",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Open",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Note:In Acrobat Reader",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Summarize Comments",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Enable Text Indicators And Tooltips",
+      "page_number": 15
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Font, Font Size",
+      "page_number": 15
+    },
+    {
+      "document": "Test Your Acrobat Exporting Skills.pdf",
+      "refined_text": "Acrobat.",
+      "page_number": 1
+    },
+    {
+      "document": "Test Your Acrobat Exporting Skills.pdf",
+      "refined_text": "Export Expert: Test Your Acrobat Exporting Skills",
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Customize Your Message",
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Add Recipients",
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Set Permissions",
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Choose Your Sharing Method",
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "General Sharing Checklist",
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Set Permissions",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Choose Your Sharing Method",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Open Your Property Document",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Real Estate Sharing Checklist",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Professional Tip: Clear Instructions",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Follow Up",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Conclusion",
+      "page_number": 3
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Professional Tip: Highlight Key Details",
+      "page_number": 3
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Follow Up",
+      "page_number": 3
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Customize Your Message",
+      "page_number": 3
+    }
+  ]
+}

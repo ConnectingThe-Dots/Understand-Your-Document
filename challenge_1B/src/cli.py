@@ -1,15 +1,15 @@
 import os
 import click
 import pdfplumber
-from src.utils import setup_logger
-from src.parser import parse_pdf
-from src.analyzer import (
+from challenge_1B.src.utils import setup_logger
+from challenge_1B.src.parser import parse_pdf
+from challenge_1B.src.analyzer import (
     load_config,
     assign_levels,
     chunk_sections,
     score_sections,
 )
-from src.serializer import serialize_round1b, dump_json
+from challenge_1B.src.serializer import serialize_round1b, dump_json
 
 @click.command()
 @click.option("--config",    "cfg_path",      default="config/default.yaml")
