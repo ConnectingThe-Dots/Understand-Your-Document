@@ -1,7 +1,3 @@
 .venv
 input
 output  
-src/__pycache__
-tests/__pycache__/
-tests/integration/__pycache__/
-tests/unit/__pycache__/

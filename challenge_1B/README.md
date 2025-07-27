@@ -1,48 +1,40 @@
 # Challenge 1B - Document Analysis with Persona-Driven Processing
 
-A sophisticated document analysis system that processes PDF collections and extracts relevant sections based on specific personas and job requirements.
+A document analysis system that **batch processes PDF collections** and extracts relevant sections based on specific personas and job requirements. Also supports individual PDF processing.
 
 ## 🚀 Features
 
-- **PDF Processing**: Extract text and structure from PDF documents
-- **Persona-Driven Analysis**: Score document sections based on relevance to specific roles and tasks
-- **Batch Processing**: Handle multiple collections of documents simultaneously
-- **Flexible Output**: Generate structured JSON output with rankings and metadata
-- **Docker Support**: Containerized deployment for consistent environments
+- **Collections Processing**: Primary feature - batch process multiple document collections
+- **Persona-Driven Analysis**: Score document sections based on relevance to specific roles and tasks  
+- **Individual PDF Processing**: Secondary feature - process single PDF documents
+- **Docker Support**: Containerized deployment
 - **CLI Interface**: Easy-to-use command-line interface
 
 ## 📋 Prerequisites
 
 - Python 3.12+
-- Docker (optional, for containerized deployment)
-- Git
+- Docker
 
 ## 🛠️ Installation
 
-### Option 1: Local Python Environment
+### Local Python Environment
 
-1. **Clone the repository:**
-```bash
-git clone https://github.com/ConnectingThe-Dots/Understand-Your-Document.git
-cd Understand-Your-Document/challenge_1B
-```
-
-2. **Create and activate virtual environment:**
+1. **Create and activate virtual environment:**
 ```bash
 cd /path/to/Connecting_the_Dots
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
-3. **Install the package:**
+2. **Install the package:**
 ```bash
 cd challenge_1B
 pip install -e .
 ```
 
-### Option 2: Docker Environment
+### Docker Environment
 
-1. **Build the Docker image:**
+**Build the Docker image:**
 ```bash
 cd challenge_1B
 docker build -t challenge_1b_image .
@@ -80,50 +72,6 @@ challenge_1B/
 
 ## 🎯 Usage
 
-### Individual PDF Processing
-
-#### Native Python
-```bash
-# Activate virtual environment
-source .venv/bin/activate
-cd challenge_1B
-
-# Basic processing
-python -m src.cli
-
-# With persona and job description
-python -m src.cli \
-  --persona-desc "Data Analyst" \
-  --job "Extract financial metrics and trends"
-
-# Custom directories and config
-python -m src.cli \
-  --config config/default.yaml \
-  --input-dir input \
-  --output-dir output \
-  --persona-desc "Research Scientist" \
-  --job "Identify key research findings" \
-  --log-level DEBUG
-```
-
-#### Docker
-```bash
-# Show help
-docker run --rm challenge_1b_image
-
-# Process with persona
-docker run --rm \
-  -v "$(pwd)/input:/app/challenge_1B/input" \
-  -v "$(pwd)/output:/app/challenge_1B/output" \
-  -v "$(pwd)/config:/app/challenge_1B/config" \
-  challenge_1b_image \
-  --config config/default.yaml \
-  --input-dir input \
-  --output-dir output \
-  --persona-desc "Travel Planner" \
-  --job "Plan a 4-day trip for college friends"
-```
-
 ### Collections Processing
 
 #### Native Python
@@ -158,15 +106,31 @@ docker run --rm \
   --collections-root challenge_1B/Challenge_1b
 ```
 
-#### Docker Compose
+### Individual PDF Processing
+
+#### Native Python
 ```bash
-docker-compose up --build
+# Basic processing
+python -m src.cli
+
+# With persona and job description
+python -m src.cli \
+  --persona-desc "Data Analyst" \
+  --job "Extract financial metrics and trends"
+```
+
+#### Docker
+```bash
+# Process with persona
+docker run --rm \
+  -v "$(pwd)/input:/app/challenge_1B/input" \
+  -v "$(pwd)/output:/app/challenge_1B/output" \
+  challenge_1b_image \
+  --persona-desc "Travel Planner" \
+  --job "Plan a 4-day trip for college friends"
 ```
 
 ## 📄 Input Format
-
-### Individual Processing
-Place PDF files in the `input/` directory. The system will process all PDF files found.
 
 ### Collections Processing
 Each collection should follow this structure:
@@ -198,6 +162,9 @@ Challenge_1b/
   ]
 }
 ```
+
+### Individual Processing
+Place PDF files in the `input/` directory.
 
 ## 📊 Output Format
 
@@ -280,22 +247,15 @@ persona:
 docker build -t challenge_1b_image .
 
 # Build with docker-compose
-docker-compose build
+## 🐳 Docker Commands
+
+### Build
+```bash
+docker build -t challenge_1b_image .
 ```
 
-### Run Commands
+### Run Collections Processing
 ```bash
-# CLI help
-docker run --rm challenge_1b_image
-
-# Individual processing
-docker run --rm \
-  -v "$(pwd)/input:/app/challenge_1B/input" \
-  -v "$(pwd)/output:/app/challenge_1B/output" \
-  challenge_1b_image \
-  --persona-desc "Analyst" --job "Extract data"
-
-# Collections processing
 docker run --rm --entrypoint="" \
   -v "$(pwd)/Challenge_1b:/app/challenge_1B/Challenge_1b" \
   challenge_1b_image \
@@ -304,92 +264,27 @@ docker run --rm --entrypoint="" \
   --collections-root challenge_1B/Challenge_1b
 ```
 
-## 🔧 Troubleshooting
-
-### Common Issues
-
-1. **Import Errors**
-   ```bash
-   # Ensure virtual environment is activated
-   source .venv/bin/activate
-   
-   # Reinstall package
-   cd challenge_1B && pip install -e .
-   ```
-
-2. **Docker Permission Issues**
-   ```bash
-   # Ensure Docker is running
-   sudo systemctl start docker
-   
-   # Add user to docker group
-   sudo usermod -aG docker $USER
-   ```
-
-3. **Memory Issues with Large PDFs**
-   ```bash
-   # Increase Docker memory limit or process files individually
-   docker run --memory=4g --rm challenge_1b_image
-   ```
-
-### Logs and Debugging
-
+### Run Individual Processing
 ```bash
-# Enable debug logging
-python -m src.cli --log-level DEBUG
-
-# Check Docker logs
-docker logs <container_id>
-
-# Verbose output
-docker run --rm -it challenge_1b_image /bin/bash
+docker run --rm \
+  -v "$(pwd)/input:/app/challenge_1B/input" \
+  -v "$(pwd)/output:/app/challenge_1B/output" \
+  challenge_1b_image \
+  --persona-desc "Analyst" --job "Extract data"
 ```
 
 ## 📝 CLI Options
 
+### Collections Processing (`src.multi_processor`)
+- `--config`: Configuration file path
+- `--collections-root`: Root directory containing Collection folders
+
 ### Individual Processing (`src.cli`)
-- `--config`: Path to configuration file (default: `config/default.yaml`)
-- `--input-dir`: Input directory containing PDFs (default: `input`)
-- `--output-dir`: Output directory for JSON files (default: `output`)
+- `--config`: Configuration file path
+- `--input-dir`: Input directory containing PDFs
+- `--output-dir`: Output directory for JSON files
 - `--persona-desc`: Description of the persona/role
 - `--job`: Job or task to be accomplished
-- `--log-level`: Logging level (DEBUG, INFO, WARNING, ERROR)
-
-### Collections Processing (`src.multi_processor`)
-- `--config`: Path to configuration file (default: `config/default.yaml`)
-- `--collections-root`: Root directory containing Collection folders (default: `.`)
-
-## 🧪 Testing
-
-```bash
-# Run with sample data
-cd challenge_1B
-echo "Test PDF processing..." > input/test.txt
-python -m src.cli --persona-desc "Tester" --job "Test the system"
-
-# Verify output
-ls -la output/
-cat output/test.json
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📜 License
-
-This project is part of the Adobe India Hackathon Challenge.
-
-## 📞 Support
-
-For issues and questions:
-- Create an issue in the GitHub repository
-- Check the troubleshooting section above
-- Review configuration settings
 
 ---
 
