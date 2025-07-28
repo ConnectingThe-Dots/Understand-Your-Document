@@ -111,6 +111,104 @@ python -m src.cli --config config/default.yaml --input-dir input --output-dir ou
 docker run -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output connecting-dots --config config/default.yaml --input-dir input --output-dir output
 ```
 
+## Technical Documentation
+
+### Architecture Overview
+
+The Document Understanding System follows a modular architecture designed for processing PDF documents and extracting structured information using advanced NLP techniques.
+
+### Core Components
+
+#### 1. Document Parser (`src/parser.py`)
+- Extracts text and metadata from PDF documents
+- Handles various PDF formats and structures
+- Preserves document layout and hierarchical information
+
+#### 2. Text Embedding System (`src/embedding.py`)
+- Uses sentence-transformers for semantic text representation
+- Computes similarity scores between text sections
+- Enables semantic search and content matching
+
+#### 3. Document Analyzer (`src/analyzer.py`)
+- Processes extracted text using NLP techniques
+- Identifies document structure and key sections
+- Applies persona-based analysis for targeted extraction
+
+#### 4. Output Serializer (`src/serializer.py`)
+- Converts processed data to structured JSON format
+- Maintains document hierarchy and relationships
+- Ensures consistent output schema
+
+### Machine Learning Model
+
+#### Sentence Transformer Model
+- **Model**: `all-MiniLM-L6-v2`
+- **Purpose**: Text embedding and semantic similarity computation
+- **Architecture**: Multi-layer transformer optimized for sentence-level representations
+- **Dimensions**: 384-dimensional embeddings
+- **Performance**: Balanced accuracy and efficiency for document understanding tasks
+
+#### Model Features
+- Pre-trained on diverse text corpora
+- Optimized for semantic textual similarity
+- Lightweight and fast inference
+- Suitable for real-time document processing
+
+### Libraries and Dependencies
+
+#### Core NLP Libraries
+- **sentence-transformers** (≥2.2.2): Semantic text embeddings and similarity computation
+- **transformers**: Hugging Face transformer models and utilities
+- **torch**: PyTorch deep learning framework for model inference
+
+#### Document Processing
+- **PyPDF2** / **pdfplumber**: PDF text extraction and parsing
+- **python-docx**: Microsoft Word document processing
+- **beautifulsoup4**: HTML/XML parsing and text extraction
+
+#### Data Processing
+- **pandas**: Data manipulation and analysis
+- **numpy**: Numerical computing and array operations
+- **scikit-learn**: Machine learning utilities and preprocessing
+
+#### Configuration and CLI
+- **click**: Command-line interface framework
+- **PyYAML**: YAML configuration file parsing
+- **python-dotenv**: Environment variable management
+
+#### Development and Testing
+- **pytest**: Testing framework
+- **black**: Code formatting
+- **flake8**: Code linting and style checking
+
+### Processing Pipeline
+
+1. **Document Ingestion**: PDF files are loaded and validated
+2. **Text Extraction**: Content is extracted while preserving structure
+3. **Preprocessing**: Text is cleaned and segmented into meaningful sections
+4. **Embedding Generation**: Text sections are converted to semantic embeddings
+5. **Analysis**: Content is analyzed based on specified persona and job requirements
+6. **Similarity Matching**: Relevant sections are identified using cosine similarity
+7. **Output Generation**: Results are structured and serialized to JSON format
+
+### Configuration
+
+The system uses YAML configuration files to define:
+- Model parameters and settings
+- Processing pipeline options
+- Input/output directory specifications
+- Logging levels and formats
+- Persona descriptions and job definitions
+
+### Performance Considerations
+
+- **Model Caching**: Pre-downloaded models for offline operation
+- **Batch Processing**: Efficient handling of multiple documents
+- **Memory Management**: Optimized for large document processing
+- **Containerization**: Docker support for consistent deployment
+
 ---
 
 **Built for Adobe India Hackathon - Challenge 1A**
+***
+## Team vector
