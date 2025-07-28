@@ -36,7 +36,24 @@ Clone the repository to your local machine:
 git clone https://github.com/ConnectingThe-Dots/Understand-Your-Document.git
 ```
 
-### Option 1: Running Locally
+### Option 1: Running with Docker
+
+1. Navigate to the Understand-Your-Document directory:
+```bash
+cd Understand-Your-Document
+```
+
+2. Build the Docker image:
+```bash
+docker build -t connecting-dots .
+```
+
+3. Run the container:
+```bash
+docker run -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output connecting-dots --config config/default.yaml
+```
+
+### Option 2: Running Locally
 
 1. Navigate to the Understand-Your-Document directory:
 ```bash
@@ -58,23 +75,6 @@ pip install -e .
 4. Run the application:
 ```bash
 python -m src.cli --config config/default.yaml
-```
-
-### Option 2: Running with Docker
-
-1. Navigate to the Understand-Your-Document directory:
-```bash
-cd Understand-Your-Document
-```
-
-2. Build the Docker image:
-```bash
-docker build -t connecting-dots .
-```
-
-3. Run the container:
-```bash
-docker run -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output connecting-dots --config config/default.yaml
 ```
 
 ## Usage
