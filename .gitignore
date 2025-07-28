@@ -185,7 +185,7 @@ models/
 *.safetensors
 
 # Input/Output directories
-input/*
+
 output/*  
 
 

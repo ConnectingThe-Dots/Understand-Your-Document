@@ -6,14 +6,14 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy pre-downloaded model
-COPY models/models--sentence-transformers--all-MiniLM-L6-v2 /root/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2
-
 # Copy project files
 COPY . .
 
 # Create directories
 RUN mkdir -p input output
+
+# Pre-download the model to avoid runtime downloads
+RUN python scripts/download_model.py
 
 # Disable network
 RUN pip config set global.trusted-host ""
